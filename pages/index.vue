@@ -58,6 +58,16 @@
 import { ref } from 'vue';
 import ProductCard from '~/components/ProductCard.vue';
 
+useHead({
+  title: 'Головна | Бабусни Гостинець',
+  meta: [
+    {
+      name: 'description',
+      content: 'Магазин м\'ясних продуктів'
+    }
+  ]
+})
+
 const products = ref([
   {
     id: 1,
