@@ -47,6 +47,8 @@
 </template>
 
 <script setup lang="ts">
+import { computed, ref } from 'vue'
+
 interface CartItem {
   id: number
   name: string
